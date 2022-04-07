@@ -317,7 +317,7 @@ h3 { font-size: var(--fs-h3); }
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
-                "subtitle "
+                "subtitle"
                 "p1"
                 "btn";
         grid-column-gap: 1em;
@@ -327,11 +327,6 @@ h3 { font-size: var(--fs-h3); }
         grid-column: 1 /-1;
         position: relative;
     }
-    /* .aboutImage {
-        grid-area: img;
-        position: relative;
-    }  */
-
     .button {
         grid-area: btn;
     }
