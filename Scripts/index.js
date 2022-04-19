@@ -1,8 +1,8 @@
 const nav = document.querySelector('.navList');
 const navToggle = document.querySelector('.mobileToggle');
-const app1 =  document.querySelector(".app1");
-const app2 =  document.querySelector(".app2");
-const app3 =  document.querySelector(".app3");
+// const app1 =  document.querySelector(".app1");
+// const app2 =  document.querySelector(".app2");
+// const app3 =  document.querySelector(".app3");
 
 navToggle.addEventListener('click', () => {
     const visibility = nav.getAttribute('data-visible');
@@ -17,27 +17,27 @@ navToggle.addEventListener('click', () => {
     }
 });
 
-app1.addEventListener('mouseover', () => {
-    let img = app1.querySelector(".projectImage");
-    if (img.getAttribute("src") != "Images/App1.gif") {
-        img.src = "Images/App1.gif";
-    }
-});
+// app1.addEventListener('mouseover', () => {
+//     let img = app1.querySelector(".projectImage");
+//     if (img.getAttribute("src") != "Images/App1.gif") {
+//         img.src = "Images/App1.gif";
+//     }
+// });
 
-app1.addEventListener('mouseout', () => {
-    let img = app1.querySelector(".projectImage");
-    img.src = "Images/facialrecog.png";
-});
+// app1.addEventListener('mouseout', () => {
+//     let img = app1.querySelector(".projectImage");
+//     img.src = "Images/facialrecog.png";
+// });
 
-app2.addEventListener('mouseover', () => {
-    let img = app2.querySelector(".projectImage");
-    if (img.getAttribute("src") != "Images/pokedex.gif") {
-        img.src = "Images/pokedex.gif";
-    }
-});
+// app2.addEventListener('mouseover', () => {
+//     let img = app2.querySelector(".projectImage");
+//     if (img.getAttribute("src") != "Images/pokedex.gif") {
+//         img.src = "Images/pokedex.gif";
+//     }
+// });
 
-app2.addEventListener('mouseout', () => {
-    let img = app2.querySelector(".projectImage");
-    img.src = "Images/pokedex.jpg";
-});
+// app2.addEventListener('mouseout', () => {
+//     let img = app2.querySelector(".projectImage");
+//     img.src = "Images/pokedex.jpg";
+// });
 
