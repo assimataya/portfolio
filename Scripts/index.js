@@ -41,11 +41,3 @@ app2.addEventListener('mouseout', () => {
     img.src = "Images/pokedex.jpg";
 });
 
-
-
-// app3.addEventListener('mouseover', () => {
-//     let img = app3.querySelector(".projectImage");
-//     if (img.getAttribute("src") != "Images/App1.gif") {
-//         img.src = "Images/App1.gif";
-//     }
-// });

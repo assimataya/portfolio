@@ -1,150 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap"
-            rel="stylesheet">
-        <script src="https://kit.fontawesome.com/55fcd8085b.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/55fcd8085b.js"
+      crossorigin="anonymous"
+    ></script>
 
-        <title>Assim Ataya</title>
-    </head>
+    <title>Assim Ataya</title>
+  </head>
 
-    <body>
-        <header>
-            <img src="Images/Logo.png" class="logo">
+  <body>
+    <header>
+      <img src="Images/Logo.png" class="logo" />
 
-            <button class="mobileToggle" aria-controls="navigation" aria-expanded="false"></button>
+      <button
+        class="mobileToggle"
+        aria-controls="navigation"
+        aria-expanded="false"
+      ></button>
 
-            <nav>
-                <ul id="navigation" data-visible="false" class="navList">
-                    <li class="navItem"><a href="#home" class="navLink">Home</a></li>
-                    <li class="navItem"><a href="#about" class="navLink">About</a></li>
-                    <li class="navItem"><a href="#projects" class="navLink">Projects</a></li>
-                    <li class="navItem"><a href="#contact" class="navLink">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+      <nav>
+        <ul id="navigation" data-visible="false" class="navList">
+          <li class="navItem"><a href="#home" class="navLink">Home</a></li>
+          <li class="navItem"><a href="#about" class="navLink">About</a></li>
+          <li class="navItem">
+            <a href="#projects" class="navLink">Projects</a>
+          </li>
+          <li class="navItem">
+            <a href="#contact" class="navLink">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- Introduction -->
-        <section class="sectionIntro"id="home">
-            <div class="intro">
-                <h1 class="sectionTitle introTitle">
-                    Hi, I'm <strong>Assim Ataya</strong>
-                </h1>
-                <p class="sectionSubtitle introSubtitle">Full Stack Dev</p>
-                <img src="Images/Profile.png" alt="a picture of me" class="introImage">
-            </div>
-            <video src="Moon - 102250.mp4" muted loop autoplay></video>
-        </section>  
-        <!-- About Me -->
-        <section class="aboutMe" id="about">
-            <h2 class="sectionTitle aboutTitle">Who I am</h2>
-            <div class="aboutContainer">
-                <p class="sectionSubtitle aboutSubtitle">Developer based out of London</p>
-                <p class="p1">An inspiring and dedicated Full Stack Developer in the making with a background in games programming, I graduated from Kingston University in 2018 where I received my Bachelor's degree with honours in Games programming.
-                    <br><br>
-                    My constant curiosity in how applications and software are created is what got me into web developing, I am mostly self taught but expedited the learning process by joining an online community called Zero To Mastery where I completed their web developer course expanding my skill set with not just front end development but also backend development with Node.js and PostgreSQL and library's such as React.
-                    <br><br>
-                    Outside the world of web development, I have an interest with all things tech. I have built several pc's including my own and I am also an avid gamer having created many games ranging from open world RPGs to online multiplayer and VR. I have also dabbled in 3D modelling due to needing assets for my own games.
-                </p>
-                <!-- <img src="Images/Image2.jpg" alt="a picture of me" class="aboutImage"> -->
-                <div class="button">
-                   <a href="Resume.pdf" class="btn cvBtn" download="Assim Ataya Resume">Resume <i class="fa fa-download"></i></a> 
-                </div>
-            </div>
-        </section>
+    <section class="sectionIntro" id="home">
+      <div class="intro">
+        <h1 class="sectionTitle introTitle">
+          Hi, I'm <strong>Assim Ataya</strong>
+        </h1>
+        <p class="sectionSubtitle introSubtitle">Full Stack Dev</p>
+        <img
+          src="Images/Profile.png"
+          alt="a picture of me"
+          class="introImage"
+        />
+      </div>
+      <video src="Moon - 102250.mp4" muted loop autoplay></video>
+    </section>
+    <!-- About Me -->
+    <section class="aboutMe" id="about">
+      <h2 class="sectionTitle aboutTitle">Who I am</h2>
+      <div class="aboutContainer">
+        <p class="sectionSubtitle aboutSubtitle">
+          Developer based out of London
+        </p>
+        <p class="p1">
+          An inspiring and dedicated Full Stack Developer in the making with a
+          background in games programming, I graduated from Kingston University
+          in 2018 where I received my Bachelor's degree with honours in Games
+          programming. <br /><br />
+          My constant curiosity in how applications and software are created is
+          what got me into web developing, I am mostly self taught but expedited
+          the learning process by joining an online community called Zero To
+          Mastery where I completed their web developer course expanding my
+          skill set with not just front end development but also backend
+          development with Node.js and PostgreSQL and library's such as React.
+          <br /><br />
+          Outside the world of web development, I have an interest with all
+          things tech. I have built several pc's including my own and I am also
+          an avid gamer having created many games ranging from open world RPGs
+          to online multiplayer and VR. I have also dabbled in 3D modelling due
+          to needing assets for my own games.
+        </p>
+        <!-- <img src="Images/Image2.jpg" alt="a picture of me" class="aboutImage"> -->
+        <div class="button">
+          <a href="Resume.pdf" class="btn cvBtn" download="Assim Ataya Resume"
+            >Resume <i class="fa fa-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
 
-        <!-- My Projects -->
-        <section class="myProjects" id="projects"> 
-            <h2 class="sectionTitle projectTitle">My Projects</h2>
-            
-            <div class="projects">
-                <div class="project app1">
-                    <p class="sectionSubtitle projectSubtitle">Facial Recognition App</p>
-                    <img src="Images/facialrecog.png" alt="" class="projectImage faceRecImage">
-                    <p class="infoText">I developed  a facial recognition app that can detect a face in an image using the Clarifai API. The app was created using the React javascript library and a backend developed wth Node.js and Express. The backend also links to a postgreSQL database which is used to store user login information. The app, server and the database were all deployed using Heroku.</p>
-                    <div class="techLogo">
-                        <img src="Images/Icons/react.png" alt="">
-                        <img src="Images/Icons/javascript.png" alt="">
-                        <img src="Images/Icons/nodejs.png" alt="">
-                        <img src="Images/Icons/postgresql.png" alt="">
-                        <img src="Images/Icons/heroku.png" alt="">
-                    </div>
-                    <div class="buttons">
-                        <a href="https://facial-detection-app-v1.herokuapp.com/" class="btn projectButton">See Live</a>
-                        <a href="https://github.com/assimataya/facial-recognition-app" class="btn projectButton">Source Code</a>
-                    </div>
-                </div>
+    <!-- My Projects -->
+    <section class="myProjects" id="projects">
+      <h2 class="sectionTitle projectTitle">My Projects</h2>
 
-                <div class="project app2">
-                    <p class="sectionSubtitle projectSubtitle">Pokedex App</p>
-                    <img src="Images/pokedex.jpg" alt="" class="projectImage pokedexImage">
-                    <p class="infoText">An online pokedex that features all pokemon from generation 1-4 displaying their basic info and sprites and when clicked on, can direct you to the dedicated wiki page for more in depth information. This app also features a search bar for easy navigation. It was created using the React library and the PokeAPi and is deployed using Github pages.</p>
-                    
-                    <div class="techLogo">
-                        <img src="Images/Icons/react.png" alt="">
-                        <img src="Images/Icons/javascript.png" alt="">
-                        <img src="Images/Icons/github.png" alt="">
-                    </div>
-                    <div class="buttons">
-                        <a href="https://assimataya.github.io/ultimate-pokedex/" class="btn projectButton">See Live</a>
-                        <a href="https://github.com/assimataya/ultimate-pokedex" class="btn projectButton">Source Code</a>
-                    </div>
-                </div>
+      <div class="projects">
+        <div class="project app1">
+          <p class="sectionSubtitle projectSubtitle">Facial Recognition App</p>
+          <img
+            src="Images/facialrecog.png"
+            alt=""
+            class="projectImage faceRecImage"
+          />
+          <p class="infoText">
+            I developed a facial recognition app that can detect a face in an
+            image using the Clarifai API. The app was created using the React
+            javascript library and a backend developed wth Node.js and Express.
+            The backend also links to a postgreSQL database which is used to
+            store user login information. The app, server and the database were
+            all deployed using Heroku.
+          </p>
+          <div class="techLogo">
+            <img src="Images/Icons/react.png" alt="" />
+            <img src="Images/Icons/javascript.png" alt="" />
+            <img src="Images/Icons/nodejs.png" alt="" />
+            <img src="Images/Icons/postgresql.png" alt="" />
+            <img src="Images/Icons/heroku.png" alt="" />
+          </div>
+          <div class="buttons">
+            <a
+              href="https://facial-detection-app-v1.herokuapp.com/"
+              class="btn projectButton"
+              >See Live</a
+            >
+            <a
+              href="https://github.com/assimataya/facial-recognition-app"
+              class="btn projectButton"
+              >Source Code</a
+            >
+          </div>
+        </div>
 
-                <div class="project app3">
-                    <p class="sectionSubtitle projectSubtitle">My Portfolio</p>
-                    <img src="Images/portfolio.jpg" alt="" class="projectImage">
-                    <p class="infoText">This portfolio was created from scratch using just the standard HTML, CSS and Javascript.</p>
-                    
-                    <div class="techLogo">
-                        <img src="Images/Icons/html.png" alt="">
-                        <img src="Images/Icons/css.png" alt="">
-                        <img src="Images/Icons/javascript.png" alt="">
-                        <!-- <img src="Images/Icons/heroku.png" alt=""> -->
-                    </div>
-                    <div class="buttons">
-                        <a href="https://github.com/assimataya/portfolio" class="btn projectButton">Source Code</a>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
+        <div class="project app2">
+          <p class="sectionSubtitle projectSubtitle">Pokedex App</p>
+          <img
+            src="Images/pokedex.jpg"
+            alt=""
+            class="projectImage pokedexImage"
+          />
+          <p class="infoText">
+            An online pokedex that features all pokemon from generation 1-4
+            displaying their basic info and sprites and when clicked on, can
+            direct you to the dedicated wiki page for more in depth information.
+            This app also features a search bar for easy navigation. It was
+            created using the React library and the PokeAPi and is deployed
+            using Github pages.
+          </p>
 
-        <!-- Contact Me -->
-        <section class="contactMe" id="contact">
-            <h2 class="sectionTitle contactTitle">Contact</h2>
-            <div class="socialContainer">
-                <div class="social email">
-                    <p class ="sectionSubtitle contactSubtitle" contactSubtitle>Email <i class="fa-solid fa-envelope"></i></p>
-                    <div class="emailContainer">
-                    <p class="emailText">assimataya@gmail.com</p>
-                    <a target="_top" href="mailto:assimataya@gmail.com" class="contactLink"><img src="Images/Icons/email.png" alt="" ></a>
-                    </div>
-                </div>
-                <div class="social linkedin">
-                    <p class ="sectionSubtitle contactSubtitle">LinkedIn <i class="fa-brands fa-linkedin"></i></p>
-                    <a class="socialLink" href="https://www.linkedin.com/in/assimataya/"> <img src="Images/Icons/linkedin.png" alt="" ></a>
-                </div>
-                <div class="social github">
-                    <p class ="sectionSubtitle contactSubtitle">Github <i class="fa-brands fa-github"></i></p>
-                    <a class="socialLink" href="https://github.com/assimataya"><img src="Images/Icons/github.png" alt="" ></a>
-                </div>
-                <div class="social discord">
-                    <p class ="sectionSubtitle contactSubtitle" contactSubtitle>Discord <i class="fa-brands fa-discord"></i></p>
-                    <p class="discText">Stunza#0778</p>
-                </div>
-            </div>
-        </section>
+          <div class="techLogo">
+            <img src="Images/Icons/react.png" alt="" />
+            <img src="Images/Icons/javascript.png" alt="" />
+            <img src="Images/Icons/github.png" alt="" />
+          </div>
+          <div class="buttons">
+            <a
+              href="https://assimataya.github.io/ultimate-pokedex/"
+              class="btn projectButton"
+              >See Live</a
+            >
+            <a
+              href="https://github.com/assimataya/ultimate-pokedex"
+              class="btn projectButton"
+              >Source Code</a
+            >
+          </div>
+        </div>
 
-        <!-- Footer -->
-        <footer>
-           <p>Made by Assim Ataya | 2022 All Rights Reserved</p>
-        </footer>
-    </body>
+        <div class="project app3">
+          <p class="sectionSubtitle projectSubtitle">My Portfolio</p>
+          <img src="Images/portfolio.jpg" alt="" class="projectImage" />
+          <p class="infoText">
+            This portfolio was created from scratch using just the standard
+            HTML, CSS and Javascript.
+          </p>
+
+          <div class="techLogo">
+            <img src="Images/Icons/html.png" alt="" />
+            <img src="Images/Icons/css.png" alt="" />
+            <img src="Images/Icons/javascript.png" alt="" />
+            <!-- <img src="Images/Icons/heroku.png" alt=""> -->
+          </div>
+          <div class="buttons">
+            <a
+              href="https://github.com/assimataya/portfolio"
+              class="btn projectButton"
+              >Source Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="contactMe" id="contact">
+      <h2 class="sectionTitle contactTitle">Contact</h2>
+      <div class="socialContainer">
+        <div class="social email">
+          <p class="sectionSubtitle contactSubtitle" contactSubtitle>
+            Email <i class="fa-solid fa-envelope"></i>
+          </p>
+          <div class="emailContainer">
+            <p class="emailText">assimataya@gmail.com</p>
+            <a
+              target="_top"
+              href="mailto:assimataya@gmail.com"
+              class="contactLink"
+              ><img src="Images/Icons/email.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="social linkedin">
+          <p class="sectionSubtitle contactSubtitle">
+            LinkedIn <i class="fa-brands fa-linkedin"></i>
+          </p>
+          <a class="socialLink" href="https://www.linkedin.com/in/assimataya/">
+            <img src="Images/Icons/linkedin.png" alt=""
+          /></a>
+        </div>
+        <div class="social github">
+          <p class="sectionSubtitle contactSubtitle">
+            Github <i class="fa-brands fa-github"></i>
+          </p>
+          <a class="socialLink" href="https://github.com/assimataya"
+            ><img src="Images/Icons/github.png" alt=""
+          /></a>
+        </div>
+        <div class="social discord">
+          <p class="sectionSubtitle contactSubtitle" contactSubtitle>
+            Discord <i class="fa-brands fa-discord"></i>
+          </p>
+          <p class="discText">Stunza#0778</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made by Assim Ataya | 2022 All Rights Reserved</p>
+    </footer>
+  </body>
   <script src="Scripts/index.js"></script>
 </html>
